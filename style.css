@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.password-display {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#password {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px 0 0 5px;
+    font-size: 1.1em;
+}
+
+#copyButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.controls, .options {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.controls label, .options label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#length {
+    width: calc(100% - 60px); /* Adjust for span width */
+    vertical-align: middle;
+}
+
+#lengthValue {
+    display: inline-block;
+    width: 40px;
+    text-align: center;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 3px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.options label {
+    margin-bottom: 8px;
+}
+
+#generateButton {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    width: 100%;
+}
